@@ -1,0 +1,36 @@
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and coverage files
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local inventory data
+data/inventory.json
+
+# Generated reports
+reports/*.txt
+
+# Temporary files
+*.tmp
+*.log
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
